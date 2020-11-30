@@ -11,5 +11,10 @@ pipeline{
                 echo 'second step clear' 
             }
         }
+        stage('Test'){
+            steps{
+                echo 'third stage' 
+            }
+        }
     }
 }
